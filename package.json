@@ -1,0 +1,33 @@
+{
+  "name": "gulp-typoscript-concat",
+  "version": "0.1.0",
+  "description": "Concatonate TypoScript files for TYPO3",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/liquidlight/gulp-typoscript-concat.git"
+  },
+  "keywords": [
+    "typo3",
+    "typoscript"
+  ],
+  "author": "Mike Street <mike@liquidlight.co.uk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liquidlight/typoscript-concat/issues"
+  },
+  "homepage": "https://github.com/liquidlight/typoscript-concat#readme",
+  "dependencies": {
+    "ansi-colors": "^4.1.1",
+    "fancy-log": "^1.3.3",
+    "fs": "0.0.1-security",
+    "line-number": "^0.1.0",
+    "merge": "^1.2.1",
+    "path": "^0.12.7",
+    "plugin-error": "^1.0.1",
+    "through2": "^3.0.1"
+  }
+}
