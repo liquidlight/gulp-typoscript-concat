@@ -16,9 +16,6 @@
   "bugs": {
     "url": "https://github.com/liquidlight/gulp-typoscript-concat/issues"
   },
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
-  },
   "homepage": "https://github.com/liquidlight/gulp-typoscript-concat#readme",
   "dependencies": {
     "ansi-colors": "^4.1.1",
