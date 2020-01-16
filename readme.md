@@ -1,6 +1,8 @@
-# Typoscript Concat
+# Gulp Typoscript Concat
 
-Allows concatenation of TypooScript files for TYPO3.
+[![Known Vulnerabilities](https://snyk.io/test/github/liquidlight/gulp-typoscript-concat/badge.svg)](https://snyk.io/test/github/liquidlight/gulp-typoscript-concat)
+
+A gulp plugin which allows concatenation of TypoScript files for TYPO3.
 
 This allows you to develop with your `.ts` files in partials, but with a compiled, single file at the end.
 
@@ -17,15 +19,17 @@ npm install --save-dev gulp-typoscript-concat
 ```js
 const typoscriptConcat = require('gulp-typoscript-concat');
 
-src('*.ts')
+gulp.src('*.ts')
 	.pipe(typoscriptConcat({
 		basepath: '/',
 		debug: true
 	}))
-	.pipe(dest(config.paths.dest));
+	.pipe(gulp.dest(config.paths.dest));
 ```
 
 #### TypoScript
+
+Include your TypoScript partials using syntax similar to SCSS
 
 ```
 @imports 'partials/navigation.ts'
